@@ -1,0 +1,51 @@
+.card_img {
+    width: 180px;
+    height: 120px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.small_img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+.small_img:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;   
+    visibility: hidden; 
+    z-index: 1;
+}
+
+
+#modal_img {
+    width: 65vw;
+}
+
+
+.modal_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.modal_active {
+    visibility: visible;
+}

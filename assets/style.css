@@ -1,0 +1,172 @@
+body, header, div, ul, li, h1,h2, p, img, a, footer, span, button, a{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+h1, h2, nav {
+  font-family: "Dela Gothic One";
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 0.6rem;
+}
+
+body {
+  background-color: rgb(226 226 202);
+  text-align: center;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: rgb(255, 81, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  animation: changeColor 10s infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    transition: 4s ease;
+  }
+  33% {
+    color: black;
+    -webkit-text-stroke-color: rgb(255, 81, 0);
+    transition: 4s ease;
+  }
+  66% {
+    color: rgb(255, 81, 0);
+    -webkit-text-stroke-color: black;
+    transition: 4s ease;
+  }
+  100% {
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    transition: 4s ease;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.welcome-section {
+  
+}
+
+.welcome-section img {
+  width: 60%;
+  max-width: 360px;
+  margin-top: 40px;
+}
+
+.about-section iframe {
+  width: 80%;
+  height: 420px;
+  /* max-height: 480px; */
+  max-width: 720px;
+  border-radius: 5px;
+}
+
+.about-section--description {
+  background-color: tomato;
+  width: 80%;
+  max-width: 720px;
+  margin-top: 8px;
+  border-radius: 5px;
+  padding: 8px 4px;
+  font-weight: 600;
+}
+
+section h1{
+  padding-top: 32px;
+  scroll-margin-top: 40px;
+}
+
+.gallery-section {
+  
+}
+
+.gallery-section .gallery {
+  width: 80%;
+  max-width: 800px;
+}
+
+.contact-section--map {
+  width: 80%;
+  max-width: 720px;
+  height: 320px;
+}
+
+.contact-section--icons {
+ 
+}
+
+.contact-section ul {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section ul li {
+  margin: 16px 4px;
+  font-size: 2rem;
+}
+
+.contact-section ul a {
+  color: black;
+}
+
+
+
+
+
+footer {
+  background-color: black;
+  color: rgb(226 226 202);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: auto;
+  width: 100%;
+}
+
+footer span {
+  color: red;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+
+
+@media (min-width: 480px) {
+  header h1 {
+    font-size: 2.75rem;
+  }
+
+  .about-section {}
+
+}

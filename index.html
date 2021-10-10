@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/menu.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ba9d43bec4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- nanogallery2 -->
+    <link
+      href="assets/gallery/nanogallery2.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      type="text/javascript"
+      src="assets/gallery/jquery.nanogallery2.min.js"
+    ></script>
+    <title>Project Badaroska's Personal Website</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1 id="home">Luis Badaró</h1>
+      <h2>Project Baradoska's Personal Website</h2>
+      <nav>
+        <button class="hamburger hamburger--spring" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="welcome-section" id="welcome">
+      <img src="assets/images/greeting.png" />
+    </section>
+    <section class="about-section">
+      <h1 id="about">ABOUT</h1>
+      <h2>Who the f#ck is Luis Badaró?</h2>
+      <iframe
+        src="https://www.youtube.com/embed/3BjWR7yz8fg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <div class="about-section--description">
+        Artista plástico natural de Rondonópolis - MT, Luis Badaró deixa sua
+        marca por onde passa.
+      </div>
+    </section>
+    <section class="gallery-section">
+      <h1 id="gallery">GALLERY</h1>
+      <h2>Some fuckin'works</h2>
+
+      <div
+        class="gallery"
+        id="nanogallery2"
+        data-nanogallery2='{
+        "thumbnailHeight":  150,
+        "thumbnailWidth":   250,
+        "galleryFilterTags": "title",
+        "galleryL1FilterTags": "title",
+        "galleryFilterTagsMode": "multiple",
+        "itemsBaseURL":     "assets/images/",
+        "displayBreadcrumb": false,
+        "breadcrumbAutoHideTopLevel": false,
+        "navigationFontSize": "2.8rem",
+        "breadcrumbOnlyCurrentLevel": false,
+        "breadcrumbAutoHideTopLevel": false,
+        "breadcrumbHideIcons": true
+      }'
+      >
+        <!-- gallery content -->
+        <a href="1.jpg" data-ngThumb="1.jpg" description="oi"> </a>
+        <a href="2.jpg" data-ngThumb="2.jpg" description="#oi"> </a>
+        <!-- add filter tags with alt=#tag-name -->
+        <a href="3.jpg" data-ngThumb="3.jpg" title="test2" description="#oi">
+        </a>
+        <a href="4.jpg" data-ngThumb="4.jpg" title="#teste" description="#oi">
+        </a>
+        <a href="5.jpg" data-ngThumb="5.jpg"></a>
+        <a href="6.jpg" data-ngThumb="6.jpg" > </a>
+        <a href="7.jpg" data-ngThumb="7.jpg" > </a>
+        <a href="8.jpg" data-ngThumb="8.jpg" > </a>
+        <a href="9.jpg" data-ngThumb="9.jpg" > </a>
+        <a href="10.jpg" data-ngThumb="10.jpg" > </a>
+        <a href="11.jpg" data-ngThumb="11.jpg"></a>
+        <a href="12.jpg" data-ngThumb="12.jpg"></a>
+        <a href="13.jpg" data-ngThumb="13.jpg"></a>
+        <a href="14.jpg" data-ngThumb="14.jpg"></a>
+        <a href="15.jpg" data-ngThumb="15.jpg"> </a>
+        <a href="16.jpg" data-ngThumb="16.jpg"> </a>
+      </div>
+    </section>
+    <section class="contact-section">
+      <h1 id="contact">CONTATO</h1>
+      <h2>Do you really wanna talk to that kind of person?</h2>
+   <iframe class="contact-section--map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.9486650159292!2d-54.623565485455856!3d-16.478136844531754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9379c98004e26b45%3A0xc33c14d215fd89c5!2zQXRlbGnDqiBCYWRhcsOz!5e0!3m2!1spt-BR!2sbr!4v1633901782673!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   <address>Rua Otávio Pitaluga, Vila Operária, Rondonópolis - MT</address>
+
+  <div id = "contact_icons">
+    <ul>
+        <li><a href="https://www.instagram.com/luisbadaro/" target="_blank" ><i class="fab fa-instagram"></i></a>
+
+        </li>
+        <li><a href="https://www.facebook.com/profile.php?id=100000635248540" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+        </li>
+        <li><a href="https://www.behance.net/luisbadaro" target="_blank"><i class="fab fa-behance-square"></i></a>
+
+        </li>
+        <li><a href="mailto:luish802@gmail.com" ><i class="fas fa-envelope"></i></a>
+
+        </li>
+    </ul>
+  </div>
+
+    <footer>Made with <span>&#10084;</span> by <a href="https://www.linkedin.com/in/gustavopnunes/" target="_blank" >Gustavo P. Nunes</a</footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
