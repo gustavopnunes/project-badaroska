@@ -12,6 +12,6 @@ Todo o layout, esquema de cores e navegação foram pensados por mim. Todas as a
 - Javascript
 - Nano Gallery 2
 
-### Link:
+### Demo:
 
 https://gustavopnunes.github.io/project-badaroska/
